@@ -1,7 +1,5 @@
 // import 'dart:t'
 
-import 'dart:math';
-
 maxPairWisepRODUCT(
   List<int> listNumber,
 ) {

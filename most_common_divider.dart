@@ -1,13 +1,11 @@
 void main(List<String> args) {
-  print(mostCommonDivider(10, 4));
+  print(mostCommonDivider(234, 248));
 }
 
-mostCommonDivider(int a, int b) {
+int mostCommonDivider(int a, int b) {
   if (b == 0) {
     return a;
   } else {
-    int result = (a / b).ceil();
-    int reminder = a % b;
-    return mostCommonDivider(result, reminder);
+    return mostCommonDivider(b, a % b);
   }
 }
