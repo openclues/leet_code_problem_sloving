@@ -80,6 +80,5 @@ class Ball {
   @override
   String toString() {
     return "${color} $count";
-    return super.toString();
   }
 }
